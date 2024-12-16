@@ -13,7 +13,8 @@ from vrecog.vrecog import recognise_text
 from storage_managers.google_sheets_man import store_shipment
 from typing import List, Any, Optional, Dict, Tuple
 
-from assistants.assistants import JSONAssistantGPT
+from AIAssistantsLib.assistants import JSONAssistantGPT
+
 import config
 
 bot = telebot.TeleBot(config.TELEGRAM_BOT_TOKEN)

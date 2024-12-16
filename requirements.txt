@@ -22,3 +22,4 @@ langchain_google_genai
 langchain_mistralai
 llama-cpp-python
 
+git+https://github.com/gbvolkov/AIAssistantsLibPackage.git
